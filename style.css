@@ -290,6 +290,7 @@ a:hover {
 .navbar {
     margin-bottom: 0;
     z-index: 1;
+    width: 80% !important;
 }
 
 .navbar-brand {
