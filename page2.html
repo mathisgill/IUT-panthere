@@ -45,6 +45,22 @@
 <body>
 <div class="page-container">
 </div>
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+    function initMap() {
+        var location = {lat: 45.7640, lng: 4.8357}; // Coordonnées pour Lyon
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 14,
+            center: location
+        });
+        var marker = new google.maps.Marker({
+            position: location,
+            map: map
+        });
+    }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
 
 <script src="./js/jquery-2.1.0.js"></script>
 <script src="./js/bootstrap.js"></script>
