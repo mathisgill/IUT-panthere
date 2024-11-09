@@ -10,7 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!;
+    outline: none;
 }
 
 a:hover {
@@ -66,10 +66,10 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto!;
-    -moz-background-size: auto!;
-    -o-background-size: auto!;
-    background-size: auto!;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
 }
 
 .bg-repeat {
@@ -96,7 +96,7 @@ a:hover {
 }
 
 .b-parallax {
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 .d-bloc {
@@ -290,7 +290,7 @@ a:hover {
 .navbar {
     margin-bottom: 0;
     z-index: 1;
-    width: 80% !;
+    width: 80% ;
 }
 
 .navbar-brand {
@@ -344,7 +344,7 @@ a:hover {
 }
 
 .navbar-toggle:hover {
-    background: transparent!;
+    background: transparent;
 }
 
 .navbar-toggle .icon-bar {
@@ -405,7 +405,7 @@ a:hover {
 }
 
 .nav > li > .dropdown a {
-    background: none!;
+    background: none;
     display: block;
     padding: 14px 15px;
 }
@@ -432,7 +432,7 @@ nav .caret {
     border-top-color: transparent;
     border-right-color: transparent;
     border-bottom-color: transparent;
-    margin: 6px -5px 0 0!;
+    margin: 6px -5px 0 0;
     float: right;
 }
 
@@ -462,7 +462,7 @@ nav .caret {
 }
 
 button {
-    outline: none!;
+    outline: none;
 }
 
 .btn-rd {
@@ -477,11 +477,11 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!;
+    font-size: 30px;
 }
 
 .icon-lg {
-    font-size: 60px!;
+    font-size: 60px;
 }
 
 .sm-shadow {
@@ -652,7 +652,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!;
+    color: #575757;
 }
 
 .container {
@@ -693,7 +693,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!;
+    color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -714,7 +714,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!;
+    color: #333333;
 }
 
 .med-width-whitespace {
@@ -728,7 +728,7 @@ h1 {
 }
 
 h4 {
-    color: #333333!;
+    color: #333333;
 }
 
 .icons {
@@ -737,7 +737,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!;
+    color: #FFFFFF;
 }
 
 .portfolio-thumb {
@@ -760,7 +760,7 @@ h4 {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!;
+    text-decoration: underline;
 }
 
 .bgc-white {
@@ -776,38 +776,38 @@ h4 {
 }
 
 .tc-white {
-    color: white!;
+    color: white;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!;
+    color: #FFFFFF;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!;
-    color: #FFFFFF!;
+    background: #c27956;
+    color: #FFFFFF;
 }
 
 .ltc-white {
-    color: #FFFFFF!;
+    color: #FFFFFF;
 }
 
 .ltc-white:hover {
-    color: #cccccc!;
+    color: #cccccc;
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!;
+    color: #F3976C;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!;
+    color: #c27956;
 }
 
 .icon-dark-slate-blue {
-    color: #364577!;
-    border-color: #364577!;
+    color: #364577;
+    border-color: #364577;
 }
 
 .bg-dots-bg {
@@ -865,6 +865,9 @@ h4 {
     .container {
         width: 100%;
     }
+      .row-no-gutters {
+        margin: 0;
+    }
     .b-parallax {
         background-attachment: scroll;
     }
@@ -903,8 +906,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!;
-        padding-right: 10px!;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -912,7 +915,7 @@ h4 {
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
-        float: none!;
+        float: none;
     }
     .navbar.row {
         margin-left: 0;
@@ -937,7 +940,7 @@ h4 {
     }
     .dropdown .dropdown a .caret {
         float: none;
-        margin: 5px 0 0 10px!;
+        margin: 5px 0 0 10px;
         border: 4px solid black;
         border-bottom-color: transparent;
         border-right-color: transparent;
@@ -963,7 +966,7 @@ h4 {
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
+        max-height:100%;
         width: auto;
     }
     .nav-invert .navbar-header {
