@@ -708,7 +708,7 @@ p {
 h2 {
     font-size: 18px;
     line-height: 1.4em;
-     color: white;
+     color:#333333;
 }
 
 h3 {
@@ -725,7 +725,7 @@ h3 {
 }
 
 h1 {
-    color: white;
+    color:#333333;
 }
 
 h4 {
