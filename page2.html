@@ -128,6 +128,44 @@
 
 </div>
 <!-- Formulaire avec validation end -->
+
+<h1> FAQ </h1>
+<section id="faq" class="faq-section">
+    <div class="container">
+        <h2>Questions fréquentes</h2>
+        <div class="faq-item">
+            <button class="faq-question">Comment passer une commande ?</button>
+            <div class="faq-answer">
+                <p>Pour passer une commande, il vous suffit de sélectionner vos articles et de suivre les étapes indiquées dans votre panier.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">Quels sont les délais de livraison ?</button>
+            <div class="faq-answer">
+                <p>Les délais de livraison sont de 3 à 5 jours ouvrés pour la France métropolitaine.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .faq-section { margin-top: 50px; padding: 30px 0; background: #f9f9f9; }
+    .faq-question { font-size: 18px; font-weight: bold; cursor: pointer; background: none; border: none; text-align: left; width: 100%; }
+    .faq-answer { display: none; padding: 10px 0; }
+    .faq-item { border-bottom: 1px solid #e1e1e1; margin: 15px 0; }
+    .faq-question.active + .faq-answer { display: block; }
+</style>
+
+<script>
+    document.querySelectorAll('.faq-question').forEach(button => {
+        button.addEventListener('click', () => {
+            button.classList.toggle('active');
+            let answer = button.nextElementSibling;
+            answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+        });
+    });
+</script>
+
 <!-- ScrollToTop Button END-->
 <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
 
