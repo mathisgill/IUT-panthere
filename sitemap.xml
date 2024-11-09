@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Page d'accueil -->
+    <url>
+        <loc>https://mathisgill.github.io/IUT-panthere/index.html</loc>
+        <lastmod>2024-11-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Page de contact -->
+    <url>
+        <loc>https://mathisgill.github.io/IUT-panthere/page2.html</loc>
+        <lastmod>2024-11-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Page des réalisations -->
+    <url>
+        <loc>https://mathisgill.github.io/IUT-panthere/portfolio.html</loc>
+        <lastmod>2024-11-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+</urlset>
+
+
+
+
+
