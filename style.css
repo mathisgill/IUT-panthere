@@ -164,7 +164,7 @@ a:hover {
 }
 
 .d-bloc .panel {
-    color: #0000FF;
+    color: #000FF;
 }
 
 .d-bloc .panel button:hover {
@@ -707,28 +707,28 @@ p {
 h2 {
     font-size: 18px;
     line-height: 1.4em;
-     color:#0000;
+     color:#000;
 }
 
 h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #0000;
+    color: #000;
 }
 
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
-    box-shadow: 0px 0px 0px #000000;
+    box-shadow: 0px 0px 0px #00000;
 }
 
 h1 {
-    color:#0000;
+    color:#000;
 }
 
 h4 {
-    color: #0000;
+    color: #000;
 }
 
 .icons {
