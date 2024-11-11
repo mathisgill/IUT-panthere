@@ -47,11 +47,11 @@
 </div>
 
 
-<script src="./js/jquery-2.1.0.js"></script>
-<script src="./js/bootstrap.js"></script>
-<script src="./js/blocs.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+<script src="./js/bootstrap.js" defer></script>
+<script src="./js/blocs.js" defer></script>
 <script src="./js/jquery.touchSwipe.js" defer></script>
-<script src="./js/gmaps.js"></script>
+<script src="./js/gmaps.js" defer></script>
 
 </body>
 </html> 
@@ -160,15 +160,16 @@
 </style>
 
 <script>
-    document.querySelectorAll('.faq-question').forEach(button => {
-        button.addEventListener('click', () => {
-            button.classList.toggle('active');
-            let answer = button.nextElementSibling;
-            answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
-        });
-    });
+  window.addEventListener('load', () => {
+     document.querySelectorAll('.faq-question').forEach(button => {
+         button.addEventListener('click', () => {
+             button.classList.toggle('active');
+             let answer = button.nextElementSibling;
+             answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+         });
+     });
+  });
 </script>
-
 
 <!-- Footer - bloc-8 -->
 
@@ -210,5 +211,10 @@
         </div>
     </div>
 </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+<script src="./js/bootstrap.js" defer></script>
+<script src="./js/blocs.js" defer></script>
+<script src="./js/jquery.touchSwipe.js" defer></script>
+<script src="./js/gmaps.js" defer></script>
 
 
